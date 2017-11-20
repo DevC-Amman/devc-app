@@ -1,0 +1,38 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "react/jsx-filename-extension": [
+      "off",
+      "always"
+    ],
+    "react/no-array-index-key": [
+      "off",
+      "always"
+    ],
+    "react/jsx-tag-spacing": [
+      "off",
+      "always"
+    ],
+    "react/forbid-prop-types": [
+      "off",
+      "always"
+    ],
+    "import/no-extraneous-dependencies": [
+      "off",
+      {
+        "devDependencies": true,
+        "optionalDependencies": true,
+        "peerDependencies": true
+      }
+    ],
+    "no-underscore-dangle": [
+      "off",
+      "always"
+    ]
+  },
+  "globals": {
+    "fetch": false,
+    "window": true,
+    "navigator": false
+  }
+}

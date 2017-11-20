@@ -1,0 +1,4 @@
+target 'DevC' do
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
+end
